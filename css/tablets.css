@@ -1,0 +1,233 @@
+/*Medium devices (tablets, 768px and down)*/
+@media screen and (max-width: 768px) {}
+
+body {
+	width: 768px;
+	background-color: #ffffff;
+}
+
+#blocpage {
+	width: 768px;
+}
+
+/*------------header------------------*/
+header {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.logonav {
+	width: 728px;
+}
+
+.navprincipale {
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.trouvez {
+	width: 550px;
+}
+
+.cartouchesfiltres {
+	width: 500px;
+	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	justify-content: left;
+}
+
+.titre {
+	width: 728px;
+	height: 55px;
+	padding-right: 20px;
+}
+
+.rondrect1,
+.rondrect2,
+.rondrect3,
+.rondrect4 {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+.oblongue {
+	height: 50px;
+	border-radius: 25px;
+	border: #f2f2f2 solid 2px;
+	z-index: 0;
+	margin-left: -50px;
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 60px;
+	margin-right: 30px;
+}
+
+.info {
+	width: 500px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.cartouchesfiltres {
+	width: 620px;
+}
+
+/*-------------main / article-----------------*/
+main {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article {
+	width: 728px;
+	height: 840px;
+	border-radius: 25px;
+	background-color: #f2f2f2;
+	padding-top: 30px;
+	margin-bottom: 40px;
+	margin-right: 0px;
+}
+
+div .titrecarres {
+	width: 500px;
+	margin-right: 0px;
+}
+
+.conteneurcarres {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 90px;
+	margin-top: 10px;
+}
+
+.carres {
+	width: 245px;
+	height: 200px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.carres img {
+	width: 245px;
+	height: 115px;
+}
+
+/*-------------main / aside-----------------*/
+aside {
+	width: 728px;
+	height: 645px;
+}
+
+aside .titrerectangles {
+	padding-left: 30px;
+}
+
+.iconefleche {
+	padding-left: 440px;
+}
+
+.rectangles {
+	width: 420px;
+	height: 145px;
+	margin-bottom: 30px;
+}
+
+/*---------------section---------------*/
+section {
+	width: 728px;
+	height: 1060px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.conteneurcarrectangle {
+	height: 1050px;
+}
+
+.carrectangle1 {
+	width: 304px;
+	height: 455px;
+}
+
+.carrectangle1 img {
+	width: 304px;
+	height: 400px;
+}
+
+.carrectangle2 {
+	width: 304px;
+	height: 240px;
+}
+
+.carrectangle2 img {
+	width: 304px;
+	height: 185px;
+}
+
+.carrectangle3 {
+	width: 304px;
+	height: 180px;
+}
+
+.carrectangle3 img {
+	width: 304px;
+	height: 125px;
+}
+
+.carrectangle4 {
+	width: 304px;
+	height: 455px;
+	margin-bottom: 40px;
+}
+
+.carrectangle4 img {
+	width: 304px;
+	height: 400px;
+}
+
+.carrectangle5 {
+	width: 304px;
+	height: 210px;
+	margin-bottom: 40px;
+}
+
+.carrectangle5 img {
+	width: 304px;
+	height: 155px;
+}
+
+.carrectangle6 {
+	display: flex;
+	flex-direction: column;
+	width: 304px;
+	height: 210px;
+	margin-bottom: 40px;
+}
+
+.carrectangle6 img {
+	width: 304px;
+	height: 155px;
+}
+
+/*---------------footer---------------*/
+
+footer {
+	width: 768px;
+	padding-left: 10px;
+}
+
+footer .liste2,
+.liste3 {
+	padding-left: 25px;
+}
