@@ -1,2 +1,2 @@
-# projet2_daphne-v2
+# daphne_projet2
 Projet de fin de P2
